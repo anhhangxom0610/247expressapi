@@ -7,10 +7,15 @@
 Hướng dẫn chi tiết các bước tích hợp API 247
   # Các bước tích hợp
  Bước 1: Đăng nhập lấy ClientID và Token theo API đăng nhập. Username và Password đăng nhập sẽ được cấp khi là khách hàng của 247. 
+ 
  Bước 2: Lấy danh sách các ClientHubID, đấy chính là danh sách mã định danh (ID) của các địa chỉ gửi hàng của khách hàng. Khi tạo đơn hàng cần gửi, phải điền đúng mã định danh (ClientHubID) tương ứng với địa chỉ gửi hàng đi của đơn hàng đó. 
+ 
 Bước 3: Lấy danh sách dịch vụ chính đã được đăng ký bởi khách hàng. 
+
 Bước 4: Lấy danh sách các dịch vụ giá trị gia tăng mà khách hàng có thể sử dụng. 
- Bước 5: Tạo đơn hàng sử dụng API tạo đơn hàng với các thông tin cần thiết sau: 
+
+Bước 5: Tạo đơn hàng sử dụng API tạo đơn hàng với các thông tin cần thiết sau: 
+
 ClientID và Token lấy ở bước 1 
 ClientHubId lấy ở bước 2 
 Dịch vụ chính/dịch vụ giá trị gia tăng lấy bước 3 và 4 (nếu sử dụng).
