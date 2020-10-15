@@ -47,6 +47,7 @@ $ npm install 247express --save
 | getPrice | Tính giá vận đơn |
 | createOrder | Tạo vận đơn |
 | createClientHub | Tạo điểm gửi hàng |
+| tracking | Track vận đơn |
 
 #### Example
 Đăng nhập:
